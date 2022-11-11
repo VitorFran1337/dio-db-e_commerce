@@ -31,7 +31,7 @@ create table products(
         cost float,
         stars float,
         size varchar(10),
-        availiability enum('Disponivel', 'Estotado')
+        availiability enum('Disponivel', 'Esgotado')
 );
 -- criar tabela pedido;
 create table orders(
